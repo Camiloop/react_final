@@ -1,0 +1,25 @@
+.work-container {
+  display: flex;
+  flex-direction: column;
+  height: auto;
+  align-items: center;
+  margin-top: 3rem;
+}
+
+.work-container h1 {
+  font-size: 3.5rem;
+  justify-self: flex-start;
+}
+
+.work-container h2 {
+  font-weight: 300;
+}
+
+.work-container__projects {
+  height: auto;
+  width: 100%;
+  width: 70%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}

@@ -1,0 +1,21 @@
+import React from 'react'
+import "./intro.css"
+
+const Intro = () => {
+
+  return (
+    <div className='container'>
+      <div className='container__text'>
+        <h1>Hi! I'm Camilo,</h1>
+        <h1>a fullstack developer! </h1> <br/>
+        <h2>Passionate about technology, learning new skills and working on new cool projects.</h2>
+        <a href={require('../imgs/CV.pdf')} download>Download CV</a>
+      </div>
+      <div className='container__img'>
+        <img src={require('../imgs/photo.jpg')}></img>
+      </div>
+    </div>
+  )
+}
+
+export default Intro

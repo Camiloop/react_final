@@ -1,0 +1,43 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  color: white;
+}
+
+.header img {
+  height: 2.3rem;
+  display: inline;
+  padding-top: 1rem;
+  margin-left: 1rem;
+}
+
+.header h1 {
+  padding: 1rem;
+  display: inline;
+}
+
+.header__menu {
+  display: flex;
+  gap: 2.5rem;
+  padding: 1rem;
+  margin-right: 2rem;
+  margin-top: 1rem;
+  font-size: 1.29rem;
+}
+
+.header__menu li:after {    
+  background: none repeat scroll 0 0 transparent;
+  bottom: 0;
+  content: "";
+  display: block;
+  position: inherit;
+  height: 2px;
+  left: 50%;
+  background: #fff;
+  transition: width 0.3s ease 0s, left 0.3s ease 0s;
+  width: 0;
+}
+.header__menu li:hover:after { 
+  width: 100%; 
+  left: 0; 
+}
