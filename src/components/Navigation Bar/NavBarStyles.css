@@ -2,6 +2,7 @@
   display: flex;
   justify-content: space-between;
   color: white;
+  transition: all ease-in-out .3s;
 }
 
 .header img {

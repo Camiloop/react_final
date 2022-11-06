@@ -1,11 +1,9 @@
 import React from "react";
-import NavBar from "../components/NavBar";
-import Work from "../components/Work";
+import Work from "../components/Projects/Work";
 
 const Projects = () => {
   return (
     <div>
-      <NavBar />
       <Work />
     </div>
   );

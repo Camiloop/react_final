@@ -1,7 +1,5 @@
 import React from "react";
 import "./WorkCard.css";
-import proj1 from "../imgs/project-1.png";
-import WorkCardData from "./WorkCardData"
 
 const WorkCard = (props) => {
   return (

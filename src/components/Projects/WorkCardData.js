@@ -1,6 +1,6 @@
-import proj1 from "../imgs/project-1.png"
-import proj2 from "../imgs/project-2.png"
-import proj3 from "../imgs/project-3.png"
+import proj1 from "/Users/PC GAMER/Documents/Bootcamp/portfolio/my-app/src/imgs/project-1.png"
+import proj2 from "/Users/PC GAMER/Documents/Bootcamp/portfolio/my-app/src/imgs/project-2.png"
+import proj3 from "/Users/PC GAMER/Documents/Bootcamp/portfolio/my-app/src/imgs/project-3.png"
 
 const projectCardData = [
   {
@@ -23,8 +23,8 @@ const projectCardData = [
     imgsrc: proj3,
     title: "Portfolio Page",
     text: "This is a project created with React to  expose myself into the tech industrie. It uses different react libraries and hooks to achieve a nice and aesthetic presentation. It is my first project created using only React JS.",
-    view: "https://camiloop.github.io/proyecto_final_html_css/",
-    source: "https://github.com/Camiloop/proyecto_final_html_css",
+    view: "https://portfolio-h7mcmnz6o-camiloop.vercel.app",
+    source: "https://github.com/Camiloop/react_final",
   },
 ]
 

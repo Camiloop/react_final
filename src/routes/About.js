@@ -1,14 +1,12 @@
-import React from 'react'
-import NavBar  from '../components/NavBar'
-import Skills from '../components/Skills'
+import React from "react";
+import Skills from "../components/Skills/Skills";
 
 const About = () => {
   return (
     <div>
-      <NavBar />
       <Skills />
     </div>
-  )
-}
+  );
+};
 
-export default About
+export default About;

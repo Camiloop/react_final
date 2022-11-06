@@ -1,14 +1,12 @@
-import React from 'react'
-import NavBar from "../components/NavBar"
-import Intro from "../components/Intro"
+import React from "react";
+import Landing from "../components/Landing page/Landing";
 
 const Home = () => {
   return (
     <div>
-      <NavBar/>
-      <Intro />
+      <Landing />
     </div>
-  )
-}
+  );
+};
 
 export default Home;
