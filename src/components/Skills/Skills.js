@@ -5,7 +5,7 @@ const Skills = () => {
   return (
     <div className="skills-container">
       <div className="skills-container__img">
-        <img src={require("/Users/PC GAMER/Documents/Bootcamp/portfolio/my-app/src/imgs/about.png")}></img>
+        <img src={require("../imgs/about.png")}></img>
       </div>
       <div className="skills-container__content">
         <div className="skills-container__content__text">

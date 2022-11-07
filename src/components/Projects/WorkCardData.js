@@ -1,6 +1,6 @@
-import proj1 from "/Users/PC GAMER/Documents/Bootcamp/portfolio/my-app/src/imgs/project-1.png"
-import proj2 from "/Users/PC GAMER/Documents/Bootcamp/portfolio/my-app/src/imgs/project-2.png"
-import proj3 from "/Users/PC GAMER/Documents/Bootcamp/portfolio/my-app/src/imgs/project-3.png"
+import proj1 from "../imgs/project-1.png"
+import proj2 from "../imgs/project-2.png"
+import proj3 from "../imgs/project-3.png"
 
 const projectCardData = [
   {

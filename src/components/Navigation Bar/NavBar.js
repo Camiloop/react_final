@@ -67,7 +67,7 @@ const NavBar = () => {
   return (
     <div className="header" style={themeStyles}>
       <Link to={"/"}>
-        <img src={require('/Users/PC GAMER/Documents/Bootcamp/portfolio/my-app/src/imgs/favicon.ico.png')}></img>
+        <img src={require('../imgs/favicon.ico.png')}></img>
         <h1>Camiloop.</h1>
       </Link>
 
