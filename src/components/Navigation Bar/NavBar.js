@@ -2,7 +2,6 @@ import "./NavBarStyles.css";
 import React from "react";
 import { Link } from "react-router-dom";
 import { useTheme, useThemeUpdate } from "../ContextProvide";
-import Button from "@mui/material/Button";
 import { styled } from "@mui/material/styles";
 import Switch from "@mui/material/Switch";
 import FormControlLabel from "@mui/material/FormControlLabel";
